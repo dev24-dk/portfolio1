@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive student portfolio showcasing skills, education, projects, hobbies, and contact information.">
+    <title>Creative IT Portfolio | Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="#home" aria-label="Portfolio home">My<span>Portfolio</span></a>
+
+            <button class="menu-toggle" id="menuToggle" type="button"
+                    aria-label="Open navigation menu" aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" id="themeToggle" type="button"
+                        aria-label="Switch to dark mode" aria-pressed="false">🌙</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero -->
+        <section class="hero section" id="home">
+            <div class="hero-content reveal">
+                <p class="eyebrow">B.Sc. IT Student • Creative Learner</p>
+                <h1>Hi, I'm <span class="gradient-text">Your Name</span></h1>
+                <h2>I build, design & explore digital ideas.</h2>
+                <p class="hero-text">
+                    I'm a technology student who enjoys programming, web design,
+                    photography, video editing, graphic design, and learning new things.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="btn primary" href="#projects">View My Work</a>
+                    <a class="btn secondary" href="#contact">Contact Me</a>
+                </div>
+
+                <div class="quick-stats" aria-label="Portfolio highlights">
+                    <div><strong>01</strong><span>Student</span></div>
+                    <div><strong>06+</strong><span>Interests</span></div>
+                    <div><strong>∞</strong><span>Curiosity</span></div>
+                </div>
+            </div>
+
+            <div class="hero-card reveal" aria-label="Portfolio profile illustration">
+                <div class="profile-ring">
+                    <div class="profile-avatar" role="img" aria-label="Abstract profile illustration">IT</div>
+                </div>
+                <div class="floating-card card-one">💻 Coding</div>
+                <div class="floating-card card-two">🎨 Creativity</div>
+                <div class="floating-card card-three">📷 Photography</div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="section-heading reveal">
+                <p class="eyebrow">01 — About Me</p>
+                <h2>Curious mind, creative approach.</h2>
+                <p>I like combining technology with creativity to turn ideas into useful and interesting digital experiences.</p>
+            </div>
+
+            <div class="about-grid">
+                <article class="about-card reveal">
+                    <div class="icon">🎓</div>
+                    <h3>IT Student</h3>
+                    <p>
+                        Currently learning programming, databases, web technologies,
+                        data structures, and computer fundamentals.
+                    </p>
+                </article>
+
+                <article class="about-card reveal">
+                    <div class="icon">🚀</div>
+                    <h3>Always Learning</h3>
+                    <p>
+                        I enjoy experimenting with new tools and improving my skills
+                        through practical projects and problem solving.
+                    </p>
+                </article>
+
+                <article class="about-card reveal">
+                    <div class="icon">🎬</div>
+                    <h3>Creative Side</h3>
+                    <p>
+                        Outside academics, I enjoy editing, photography, videography,
+                        graphic design, gaming, travel, and exploring visual ideas.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section alt-section" id="skills">
+            <div class="section-heading reveal">
+                <p class="eyebrow">02 — Skills</p>
+                <h2>Things I'm learning and building with.</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill reveal">
+                    <div class="skill-top"><span>HTML</span><span>90%</span></div>
+                    <div class="progress"><span style="width:90%"></span></div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-top"><span>CSS</span><span>85%</span></div>
+                    <div class="progress"><span style="width:85%"></span></div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-top"><span>JavaScript</span><span>70%</span></div>
+                    <div class="progress"><span style="width:70%"></span></div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-top"><span>C / C++</span><span>80%</span></div>
+                    <div class="progress"><span style="width:80%"></span></div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-top"><span>SQL</span><span>75%</span></div>
+                    <div class="progress"><span style="width:75%"></span></div>
+                </div>
+
+                <div class="skill reveal">
+                    <div class="skill-top"><span>Creative Editing</span><span>85%</span></div>
+                    <div class="progress"><span style="width:85%"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-tags reveal" aria-label="Additional skills">
+                <span>Problem Solving</span>
+                <span>Responsive Design</span>
+                <span>Photography</span>
+                <span>Video Editing</span>
+                <span>Graphic Design</span>
+                <span>Teamwork</span>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section" id="education">
+            <div class="section-heading reveal">
+                <p class="eyebrow">03 — Education</p>
+                <h2>My learning journey.</h2>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item reveal">
+                    <div class="timeline-dot" aria-hidden="true"></div>
+                    <div>
+                        <p class="timeline-date">Current</p>
+                        <h3>B.Sc. Information Technology</h3>
+                        <p>Building a foundation in programming, databases, web development, computer fundamentals, and modern IT concepts.</p>
+                    </div>
+                </article>
+
+                <article class="timeline-item reveal">
+                    <div class="timeline-dot" aria-hidden="true"></div>
+                    <div>
+                        <p class="timeline-date">Previous Education</p>
+                        <h3>Higher Secondary Education — PCM</h3>
+                        <p>Developed logical thinking and problem-solving skills through mathematics, physics, and chemistry.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section alt-section" id="projects">
+            <div class="section-heading reveal">
+                <p class="eyebrow">04 — Projects</p>
+                <h2>A few things I've worked on.</h2>
+                <p>These project examples demonstrate practical use of programming, databases, and web design.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <img src="assets/project-web.svg" alt="Illustration representing a responsive web design project">
+                    <div class="project-body">
+                        <span class="project-number">01</span>
+                        <h3>Responsive Portfolio Website</h3>
+                        <p>A responsive website created with semantic HTML, CSS, and JavaScript.</p>
+                        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <img src="assets/project-database.svg" alt="Illustration representing a database and SQL project">
+                    <div class="project-body">
+                        <span class="project-number">02</span>
+                        <h3>SQL Database Project</h3>
+                        <p>A relational database project using tables, queries, joins, functions, grouping, and subqueries.</p>
+                        <div class="project-tags"><span>SQL</span><span>Database</span><span>Queries</span></div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <img src="assets/project-creative.svg" alt="Illustration representing a creative media editing project">
+                    <div class="project-body">
+                        <span class="project-number">03</span>
+                        <h3>Creative Media Collection</h3>
+                        <p>A collection of photography, video editing, graphic design, and visual storytelling experiments.</p>
+                        <div class="project-tags"><span>Editing</span><span>Design</span><span>Media</span></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Hobbies -->
+        <section class="section" id="hobbies">
+            <div class="section-heading reveal">
+                <p class="eyebrow">05 — Beyond Code</p>
+                <h2>What I enjoy outside academics.</h2>
+            </div>
+
+            <div class="hobby-grid">
+                <div class="hobby reveal"><span>📷</span><h3>Photography</h3><p>Capturing everyday moments and experimenting with visual composition.</p></div>
+                <div class="hobby reveal"><span>🎬</span><h3>Video Editing</h3><p>Turning clips, music, and transitions into short visual stories.</p></div>
+                <div class="hobby reveal"><span>🎮</span><h3>Gaming</h3><p>Enjoying competitive games and exploring different gaming experiences.</p></div>
+                <div class="hobby reveal"><span>🏏</span><h3>Cricket</h3><p>Following and playing cricket whenever I get the chance.</p></div>
+                <div class="hobby reveal"><span>🎥</span><h3>Movies</h3><p>Thriller and horror movies are my go-to for a good story.</p></div>
+                <div class="hobby reveal"><span>✈️</span><h3>Travel</h3><p>Exploring places, driving, and collecting new experiences.</p></div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+            <div class="section-heading reveal">
+                <p class="eyebrow">06 — Contact</p>
+                <h2>Let's connect.</h2>
+                <p>Have a project idea, collaboration, or just want to say hello? Send a message.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <div><strong>Email</strong><a href="mailto:yourname@example.com">yourname@example.com</a></div>
+                    </div>
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <div><strong>Location</strong><p>India</p></div>
+                    </div>
+                    <div class="contact-item">
+                        <span>💻</span>
+                        <div><strong>GitHub</strong><a href="https://github.com/" target="_blank" rel="noopener">github.com/yourusername</a></div>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input id="name" name="name" type="text" autocomplete="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+                    </div>
+
+                    <button class="btn primary" type="submit">Send Message</button>
+                    <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Your Name. Built with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
