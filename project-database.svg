@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#12b8a6"/><stop offset="1" stop-color="#6c4df6"/></linearGradient></defs>
+<rect width="800" height="450" fill="#10131c"/>
+<ellipse cx="400" cy="110" rx="170" ry="55" fill="url(#g)"/>
+<path d="M230 110v190c0 30 340 30 340 0V110" fill="#222a39" stroke="#647087" stroke-width="4"/>
+<ellipse cx="400" cy="300" rx="170" ry="55" fill="#222a39" stroke="#647087" stroke-width="4"/>
+<ellipse cx="400" cy="200" rx="170" ry="55" fill="none" stroke="#647087" stroke-width="4"/>
+<text x="400" y="118" text-anchor="middle" fill="#fff" font-family="Arial" font-size="28" font-weight="700">SQL</text>
+<text x="400" y="390" text-anchor="middle" fill="#fff" font-family="Arial" font-size="25">DATABASE PROJECT</text>
+</svg>

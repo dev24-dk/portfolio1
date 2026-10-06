@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#6c4df6"/><stop offset="1" stop-color="#12b8a6"/></linearGradient></defs>
+<rect width="800" height="450" fill="#10131c"/>
+<rect x="90" y="65" width="620" height="320" rx="22" fill="#191f2c" stroke="#394154" stroke-width="4"/>
+<rect x="120" y="100" width="560" height="45" rx="10" fill="url(#g)"/>
+<rect x="120" y="170" width="250" height="170" rx="15" fill="#242b3a"/>
+<rect x="395" y="170" width="285" height="70" rx="15" fill="#242b3a"/>
+<rect x="395" y="260" width="285" height="80" rx="15" fill="#242b3a"/>
+<circle cx="145" cy="122" r="7" fill="#fff"/><circle cx="170" cy="122" r="7" fill="#fff"/><circle cx="195" cy="122" r="7" fill="#fff"/>
+<text x="400" y="58" fill="#fff" font-family="Arial" font-size="28" font-weight="700">WEB PROJECT</text>
+</svg>
